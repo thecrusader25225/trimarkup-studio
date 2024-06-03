@@ -44,16 +44,10 @@ To run TriMarkup Studio locally, you will need:
 4. **Install Tailwind CSS:**
 
     ```sh
-    npm install tailwindcss@latest postcss@latest autoprefixer@latest
-    ```
-
-5. **Generate the Tailwind CSS configuration file:**
-
-    ```sh
     npm install -D tailwindcss
     ```
 
-6. **Install React Icons:**
+5. **Install React Icons:**
 
     ```sh
     npm install react-icons
@@ -61,13 +55,13 @@ To run TriMarkup Studio locally, you will need:
 
     This will add the necessary `react-icons` package to your project.
 
-7. **Start the development server:**
+6. **Start the development server:**
 
     ```sh
     npm start
     ```
 
-8. **Open your browser and navigate to:**
+7. **Open your browser and navigate to:**
 
     ```
     http://localhost:3000
