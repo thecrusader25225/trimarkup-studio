@@ -3,7 +3,7 @@
 @tailwind utilities;
 @layer components{
     .upper{
-        @apply  bg-gray-950 w-1/2 flex flex-col absolute justify-center gap-4 p-4 h-full;
+        @apply  bg-gray-950 w-1/2 flex flex-col absolute justify-center gap-4 p-4 h-full overflow-hidden;
     }
     .editor{
         @apply p-4 text-gray-200 bg-zinc-800 w-full h-[calc(100%-32px)] resize-none;
@@ -15,7 +15,7 @@
         @apply h-8 bg-neutral-900  text-gray-400  font-extrabold text-xl flex justify-center gap-1
     }
     .display{
-        @apply top-0 left-1/2 absolute w-1/2 h-full block bg-white border-2 border-black ml-8;
+        @apply  left-1/2 absolute w-1/2 h-full block bg-white border-2 border-black ml-8 overflow-hidden;
     }
     @media(max-width: 767px){
         .upper{
