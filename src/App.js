@@ -1,5 +1,10 @@
 import { useEffect, useState } from "react";
-import { FaBeer, FaCss3, FaHtml5, FaJs } from "react-icons/fa";
+import { FaCss3, FaHtml5, FaJs } from "react-icons/fa";
+import htmlImg from "./html.png";
+import cssImg from "./css3.png";
+import jsImg from "./js.png";
+import full_logo from "./full_logo.png";
+
 function App() {
   const [html, setHtml] = useState("");
   const [css, setCss] = useState("");
@@ -62,9 +67,20 @@ function App() {
         </div>
 
         <div className="display">
-          <iframe srcDoc={sol} title="output"></iframe>
+          <iframe
+            srcDoc={sol}
+            title="output"
+            className="w-full h-full"
+          ></iframe>
         </div>
-        <div className="fixed block top-0 left-0 h-16 w-full bg-yellow-400"></div>
+        <div className="fixed top-0 left-0 h-16 w-full bg-neutral-900 text-neutral-400 font-extrabold text-3xl italic font-mono flex justify-between gap-1 items-center px-2">
+          <img src={full_logo} className="h-16" />
+          <span className="flex gap-1">
+            <img src={htmlImg} className="w-10 h-10" />
+            <img src={cssImg} className="w-10 h-10" />
+            <img src={jsImg} className="w-10 h-10" />
+          </span>
+        </div>
       </div>
     </>
   );
