@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { FaBeer, FaCss3, FaHtml5, FaJs } from "react-icons/fa";
+import { FaCss3, FaHtml5, FaJs } from "react-icons/fa";
 function App() {
   const [html, setHtml] = useState("");
   const [css, setCss] = useState("");
