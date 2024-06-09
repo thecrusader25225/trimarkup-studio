@@ -73,15 +73,6 @@ Now, Tailwind CSS and React Icons are installed and ready to use in your TriMark
 
 Once the development server is running, you can start coding with TriMarkup Studio by navigating to `http://localhost:3000` in your browser. The interface will allow you to write HTML, CSS, and JavaScript code, with live preview functionality.
 
-### File Structure
-
-- **public/**: Contains the public assets and the `index.html` file.
-- **src/**: Contains the source code for the React application.
-  - **components/**: Contains the React components.
-  - **styles/**: Contains the Tailwind CSS configuration and additional styles.
-  - **App.js**: The main application component.
-  - **index.js**: The entry point for the React application.
-
 ## Contributing
 
 We welcome contributions to TriMarkup Studio! If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
