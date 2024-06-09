@@ -76,9 +76,27 @@ function App() {
         <div className="fixed top-0 left-0 h-16 w-full bg-neutral-900 text-neutral-400 font-extrabold text-3xl italic font-mono flex justify-between gap-1 items-center px-2">
           <img src={full_logo} className="h-16" alt="" />
           <span className="flex gap-1">
-            <img src={htmlImg} className="w-10 h-10" alt="" />
-            <img src={cssImg} className="w-10 h-10" alt="" />
-            <img src={jsImg} className="w-10 h-10" alt="" />
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={htmlImg} className="w-10 h-10" alt="" />
+            </a>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/css"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={cssImg} className="w-10 h-10" alt="" />
+            </a>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/javascript"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={jsImg} className="w-10 h-10" alt="" />
+            </a>
           </span>
         </div>
       </div>
